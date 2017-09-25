@@ -1,3 +1,4 @@
+//Jesse Cornejo
 // LinkedList.h
 
 // tom bailey   0740  5 oct 2010
@@ -65,6 +66,9 @@ public:
 	// post: the first double in this List has been removed
 	//         from this List and has been returned.
 	double removeFirst();
+
+	double sum();
+	double size();
 
 private:
 	//*** Inaccessible standard functions ***
