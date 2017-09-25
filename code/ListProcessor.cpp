@@ -28,8 +28,9 @@ int main()
 	horses.removeFirst();
 	horses.insertAsFirst(5.67);
 	cows.insertAsFirst(6.78);
-	cout << "cows list  :  " << cows << endl;
+	cout << "cows list  :  " << cows.size() << endl;
 	cout << "horses list:  " << horses << endl << endl;
+	cout << "horses size:  " << horses.size() << endl;
 
 	List pigs;
 	cout << "cows list  :  " << cows << endl;
